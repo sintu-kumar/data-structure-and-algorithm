@@ -1,3 +1,3 @@
-# data-structure-and-algorithm
+# Data-Structure-and-Algorithm
 
-Implementation of some popular data structure and algorithm in c++.
+`Implementation of some popular data structure, algorithm and sorting using C++.`
