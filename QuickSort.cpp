@@ -5,7 +5,7 @@ int partitions(int A[],int start,int end)
 {
     int pivot = A[end];
     int pIndex = start;
-    for(int i=start;i<end;i++)
+    for(int i=start; i<end; i++)
     {
         if(A[i]<pivot)
         {
@@ -34,10 +34,10 @@ int main()
     cin>>n;
     int A[n];
     cout<<"Enter the list ? "<<endl;
-    for(int i = 0; i<n;i++)
+    for(int i=0; i<n; i++)
         cin>>A[i];
     QuickSort(A,0,n);
-    for(int i = 0; i<n;i++)
+    for(int i=0; i<n; i++)
         cout<<A[i]<<" ";
 
     return 0;
